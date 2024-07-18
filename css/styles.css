@@ -81,6 +81,11 @@ a {
   color: #2e2f42;
 }
 
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
@@ -91,15 +96,20 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .contacs-link:hover,
 .contacs-link:focus {
   color: #404bbf;
 }
+
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 
 .contacs-link {
@@ -107,12 +117,28 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: block;
+  padding: 24px 0;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.contacs-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 /*Hero-image*/
 
 .page-hero {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .text-hero {
@@ -172,7 +198,8 @@ a {
 
 .team {
   background-color: #f4f4fd;
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .task_title {
@@ -310,6 +337,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer-logo {
+  display: inline-block;
 }
 
 /*Общие стили*/
