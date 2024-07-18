@@ -197,9 +197,8 @@ a {
 /*Our Team*/
 
 .team {
+  padding: 120px 0;
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .task_title {
@@ -228,7 +227,7 @@ a {
   margin-bottom: 72px;
 }
 
-.team-list {
+.teamlist {
   background-color: #ffffff;
   display: flex;
   gap: 24px;
@@ -248,7 +247,8 @@ a {
   padding: 32px 0;
 }
 
-.name-team {
+.nameteam {
+  margin-bottom: 8px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -256,7 +256,6 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 
 .text-team {
